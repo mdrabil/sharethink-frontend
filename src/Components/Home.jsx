@@ -10,9 +10,12 @@ const {fname} = useContext(usercontext)
 <section className="home">
   <div className="home-box">
     <h1>
+      welcome to <span>ShareThink </span>
+      <br />
+
       this website is for you {fname}
     </h1>
-    <h2>you can easly <span>post your feeling </span></h2>
+    <h2>you can easly post <br /><span>post your feeling </span></h2>
 <div className="home-btn">
   <Link to={"/LoginPost"}>post</Link>
   </div>
