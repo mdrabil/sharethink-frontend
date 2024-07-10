@@ -22,7 +22,7 @@ const Header = () => {
 <header>
    <Link to={"/"}>  
     <div className="logo">
-      <img src="images/logo.png" alt="" />
+      <img src="https://gust-production.s3.amazonaws.com/uploads/startup/logo_image/133355/logo.png" alt="" />
         <h1>share<span>think</span></h1>
     </div>
    </Link>
