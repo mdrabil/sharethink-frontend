@@ -82,7 +82,7 @@ placeholder='your userid'
 autoComplete='off'
 value={getone.userid}
 onChange={changed}
-id='email' name='email' 
+id='userid' name='userid' 
 
 />
 
