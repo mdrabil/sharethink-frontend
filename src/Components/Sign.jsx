@@ -11,7 +11,7 @@ const Sign = () => {
   const [email,setemail] = useState()
   const [password,setpassword] = useState()
   const [cpassword,setcpassword] = useState()
-
+axios.defaults.withCredentials=true
 const submitform = async (e)=>{
 e.preventDefault()
 await axios.post(`${server}/signup`,{
