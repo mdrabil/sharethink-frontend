@@ -1,1 +1,1 @@
-export const server= `https://sharethink-blog.vercel.app`
+export const server= `https://sharethink-backend.vercel.app`
