@@ -28,7 +28,7 @@ useEffect(()=>{
 
       if(result){
         
-        // alert(result.data)
+  
         setgetone(result.data)
       }
     })
@@ -44,7 +44,6 @@ const submitpost =async (e)=>{
   if(result.data=="update"){
       toast.success("post is completed" ,{position:'bottom-right'})
   navigate(`/PostPage`)
-  console.log(result.data)
   }
 else{
 
