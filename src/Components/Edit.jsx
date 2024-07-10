@@ -39,9 +39,10 @@ getone()
 const submitpost =async (e)=>{
   e.preventDefault()
   
-  await axios.put(`${server}/update/${id}`, {getone}).then(result=>{
+  await axios.put(`${server}/update/${id}`, getone).then(result=>{
   
   if(result.data=="update"){
+
       toast.success("post is completed" ,{position:'bottom-right'})
   navigate(`/PostPage`)
   }

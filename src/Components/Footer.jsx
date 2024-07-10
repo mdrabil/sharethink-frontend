@@ -40,10 +40,17 @@ return <>
    </div>
 <br />
   <div className="footer-link">
-  <i class="ri-youtube-fill"></i>
+ <Link to={'https://www.youtube.com/@compare_wale'}>
+ <i class="ri-youtube-fill"></i>
+ </Link>
+ <Link to={'https://www.instagram.com/its_rebelboy_?igsh=MWN0aXlpNG00MG4zMw=='}>
   <i class="ri-instagram-fill"></i>
+ </Link>
+
   <i class="ri-facebook-fill"></i>
-  <i class="ri-twitter-fill"></i>
+  <Link to={'https://www.hipi.co.in/@compare_wale?utm_source=Android&utm_medium=my_profile&utm_campaign=hipi_shared_link'}>
+  <i class="ri-film-line"></i>
+  </Link>
   </div>
 </div>
         </div>
