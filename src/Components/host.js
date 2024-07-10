@@ -1,0 +1,1 @@
+export const server= `https://sharethink.onrender.com`
