@@ -39,7 +39,7 @@ getone()
 const submitpost =async (e)=>{
   e.preventDefault()
   
-  await axios.put(`${server}/update/${id}`, getone).then(result=>{
+  await axios.put(`${server}/update/${id}`, getone.post).then(result=>{
   
   if(result.data=="update"){
 
@@ -108,7 +108,7 @@ onChange={changed}
 
 <br />
 
-<input type="submit" value="submit your post" id='submit'/>
+<input type="submit" value="update post" id='submit'/>
 
 
       </form>
