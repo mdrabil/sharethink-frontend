@@ -22,7 +22,7 @@ const Footer = () => {
   data.map((mydata,index)=>{
 return <>
 <div className="member-name" onClick={window.scroll(0,0)}>
-<Link  to={`/mydetails/${mydata.id}`}><p>{mydata.name}</p></Link>
+<Link  to={`/mydetails/${mydata.id}`}><p onClick={window.scroll(0,0)}>{mydata.name}</p></Link>
 
 </div>
 </>
@@ -33,9 +33,9 @@ return <>
   <div className="footer-box" id='about-me'>
     <h1>connet to me</h1>
    <div className="footer-name">
-   <p><span>vill :- </span>gobinda pur dist-siwan <br />pin:-841439</p>
-    <p><span>mobile :- </span>9801669387</p>
-    <p><span>email :- </span>ermdrabil@gmail.com</p>
+   <p><span>COUNTRY / STATE- </span>INDIA / BIHAR <br />PIN:-841439</p>
+    <p><span>-CONTACK NO  </span>9801669387</p>
+    <p><span>EMAIL :- </span>ermdrabil@gmail.com</p>
 
    </div>
 <br />
@@ -55,8 +55,8 @@ return <>
 </div>
         </div>
         <div className="copyright">
-          <p>@2024 all is made by rabil hussain</p>
-          <p>rivacy policy : term and Conditions</p>
+          <p>@2024 all right receved </p>
+          <p>Privacy policy : term and Conditions</p>
           </div>
       </div>
     </div>

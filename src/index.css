@@ -299,14 +299,17 @@ box-shadow: 0px 0px 1px;
 
 .post-box h1{
   color: navy;
-  font-weight: 100;
-letter-spacing: 2px;
-line-height: 30px;
-  word-spacing: 3px;
-  font-size: .7rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 30px;
+  word-spacing: 5px;
+  font-size: 1rem;
   background-color: rgb(239, 236, 229);
-padding:5px;
-  }
+  padding:10px 5px;
+  font-family: "Trade Winds", system-ui;
+font-style: normal;
+
+}
 
 #spanwala{
   float:right;
@@ -322,6 +325,7 @@ padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 form h2{
   text-align: center;
@@ -381,12 +385,13 @@ border-radius: 10px;
 }
 .blog-post h2{
   padding-bottom: 15px;
+
 }
 .blog-link{
   display: flex;
   align-items: center;
   justify-content:space-between;
-  padding: 0px 20px;
+  padding: 5px 20px;
   width: 100%;
 font-size:1rem;
 color: red;
@@ -399,13 +404,12 @@ color: green;
 
 .blog-link h6{
   text-transform: capitalize;
-padding-bottom: 5px;
-font-family: "Space Grotesk", sans-serif;
-font-optical-sizing: auto;
-font-weight: weight;
-font-style: normal;
+font-size: .8rem;
+font-family: "Dancing Script", cursive;
 
-color: green;
+letter-spacing: 1px;
+
+color:navy;
 
 }
 .footer{

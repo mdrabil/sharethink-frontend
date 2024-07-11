@@ -15,7 +15,7 @@ const submitform =async (e)=>{
 await axios.post(`${server}/reset-password/${id}`,{password,userid}).then((result)=>{
 
 if(result.data=="user"){
-    toast.success("user is exist",{position:"top-center"})
+    toast.success("UPADATE NOW",{position:"top-center"})
 navigate('/Loginpost')
 }
 

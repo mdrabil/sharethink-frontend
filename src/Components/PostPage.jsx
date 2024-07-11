@@ -60,7 +60,7 @@ datafun()
   <Link to={`/edit/${data._id}`}> <i class="ri-pencil-line"></i></Link>
    <Link to={`/delete/${data._id}`}><i class="ri-delete-bin-5-line"></i></Link>
    <i class="ri-file-copy-fill" onClick={copyclip}></i>
-  <h6>{data.userid}</h6>
+  <h6>{data.userid} <hr /></h6>
    </div>
 
 </div>

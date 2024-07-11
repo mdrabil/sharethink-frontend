@@ -27,7 +27,7 @@ const {id} = useParams()
     
     }
     }).catch(()=>{
-        toast.error("invalid user ",{position:"top-center"})
+        toast.error("SERVER ERROR",{position:"top-center"})
         
     })
     

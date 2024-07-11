@@ -21,7 +21,7 @@ await axios.post(`${server}/signup`,{
 
   
 if(result.data=="add"){
-  toast.success("you can share your post",{position:'botttom-right'},{duration:"30s"})
+  toast.success("POST YOUR BLOG",{position:'top-center'},{duration:"30s"})
 
 navigate("/LoginPost")
 
@@ -32,7 +32,7 @@ else{
 }
 
 }).catch(()=>{
-  toast.error(result.data.msg,{position:'something went wrong'})
+  toast.error(result.data.msg,{position:'top-center'})
 
 })
 

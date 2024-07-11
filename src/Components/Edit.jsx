@@ -39,19 +39,19 @@ getone()
 const submitpost =async (e)=>{
   e.preventDefault()
   
-  await axios.put(`${server}/update/${id}`, getone.post).then(result=>{
+  await axios.put(`${server}/update/${id}`, getone).then(result=>{
   
   if(result.data=="update"){
 
-      toast.success("post is completed" ,{position:'bottom-right'})
+      toast.success("UPDATED" ,{position:'top-center'})
   navigate(`/PostPage`)
   }
 else{
 
-  toast.error("not update",{position:'center'})
+  toast.error("ERROR WITH SERVER",{position:'top-center'})
 }
   }).catch(()=>{
-     return alert("data is not saveed")
+     return alert("data is not saved")
   })
   
   }

@@ -15,7 +15,7 @@ e.preventDefault()
 await axios.post(`${server}/post`,{userid,password,post}).then(result=>{
 
 if(result.data=="added"){
-    toast.success("post is completed" ,{position:'top-center'})
+    toast.success("POST IS SUCCESSFULL" ,{position:'top-center'})
 navigate(`/PostPage`)
 }
 else{
@@ -25,7 +25,7 @@ else{
 
 // toast.error(result.data.msg,{position:'top-center'})
 }).catch(()=>{
-toast.error("something went wrong",{position:'top-center'})
+toast.error("SERVER ERROR",{position:'top-center'})
   
 })
 

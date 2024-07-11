@@ -31,11 +31,11 @@ const deleted = async(e)=>{
 await axios.delete(`${server}/delete/${id}`).then((result)=>{
   
 if(result.data="delete"){
-  toast.success("deleted",{position:'bottom-center'})
+  toast.success("DELETED SUCCESSFULL",{position:'top-center'})
   navigate('/')
 }
 else{
-  toast.error("deleted",{position:'bottom-center'})
+  toast.error("ERROR",{position:'top-center'})
 
 }
 })

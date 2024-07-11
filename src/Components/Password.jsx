@@ -17,14 +17,14 @@ const Password = () => {
     await axios.post(`${server}/verifypassword/${id}`,{userid,password}).then(result=>{
        if(result.data=="pass"){
         setdis("none")
-        toast.success("you are user",{position:'top-center'})
+        toast.success("WELCOME ",{position:'top-center'})
       }
       else {
 
         toast.error(result.data.msg,{position:"top-center"})
       }
     }).catch(()=>{
-      toast.error("something went wrong",{position:"top-center"})
+      toast.error("SERVER ERROR",{position:"top-center"})
       
 })
 }

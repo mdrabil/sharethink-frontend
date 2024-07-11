@@ -16,7 +16,7 @@ const ForgetPassword = () => {
     await axios.post(`${server}/generate-otp`,{email}).then((result)=>{
     
     if(result.data.status==true){
-        toast.success("OPT SEND YOUR  REGISTER EMAIL",{position:"top-center"})
+        toast.success("OTP SEND YOUR  REGISTERED EMAIL",{position:"top-center"})
     
     setotpbtn("none")
     }
@@ -27,7 +27,7 @@ const ForgetPassword = () => {
     
     }
     }).catch(()=>{
-        toast.error("invalid user ",{position:"top-center"})
+        toast.error("SERVER ERROR",{position:"top-center"})
         
     })
     
@@ -39,7 +39,7 @@ const ForgetPassword = () => {
     
     if(result.data.status=="user"){
      
-        toast.success("validated",{position:"top-center"})
+        toast.success("VALIDATED",{position:"top-center"})
     navigate(`/reset-password/${result.data.send}`)
     }
     
@@ -49,7 +49,7 @@ const ForgetPassword = () => {
     
     }
     }).catch(()=>{
-        toast.error("user not found not go data",{position:'top-center'})
+        toast.error("SERVER ERROR",{position:'top-center'})
     })
     
     }

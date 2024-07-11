@@ -14,7 +14,7 @@ e.preventDefault()
 axios.post(`${server}/postdata/${myemail}`,{postdata}).then(result=>{
 
 if(result.data=="added"){
-    toast.success("post is completed" ,{position:'top-right'})
+    toast.success("WELCOME" ,{position:'top-right'})
 navigate('/')
 }
 
